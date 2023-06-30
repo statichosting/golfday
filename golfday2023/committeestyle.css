@@ -1,0 +1,484 @@
+
+/*CSS Setting of Head banner*/
+
+.breadcrumbs {
+  height: 250px;
+  background-image: url(banner_01.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.containerhead{
+  height: 250px;
+}
+
+.popin {
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 12px rgba(0,0,0,1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-family: 'Poppins', 'Microsoft JhengHei', ;
+}
+
+@media screen and (max-width: 576px) {
+  .popin {
+    font-size: 40px;
+  }
+}
+
+/*CSS Setting of Main Content*/
+
+.pt-80 {
+  padding-top: 80px;
+}
+.pb-5, .py-5 {
+  padding-bottom: 3rem!important;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 2px;
+  font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.main-section p {
+  color: #6b551e;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.about-img {
+  text-align: center; 
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+}
+/*------------------------------------------------------------------------------------------*/
+/* CSS Setting of Header*/
+h6 {
+  color: #531e68 !important;
+  font-weight:bold;
+  text-align: center;
+  font-size: 16px;
+  height: 45px !important;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+.htitle {
+  font-size: 19px;
+  color: #a59561;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
+}
+
+.logo img{
+  width: 100%; /* 調整最大寬度 */
+  margin-bottom: 20px;
+  
+}
+
+.logo2 img{
+  width: 98%; /* 調整最大寬度 */
+}
+
+.login-btn a {
+  font-size: 14px;
+  color: #444;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+  font-weight: 700;
+  padding: 10px,10px;
+}
+
+.login-btn a:hover {
+  color: #fff;
+  background-color: #570404;
+  border-color: #570404;
+}
+
+
+@media screen and (max-width: 576px) {
+  .header-center .col-xl-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-center .col-xl-6 {
+    text-align: center;
+  }
+  .header-center .col-xl-6 .htitle {
+    font-size: 18px;
+  }
+  .header-center .col-xl-3:last-child {
+    display: flex !important;
+  }
+  .header-center .col-xl-3:last-child .logo2 {
+    margin-right: -30px;
+  }
+  .header-center .col-xl-3:last-child .login-btn {
+    margin-left: 0px;
+  }
+  .logo2 img{
+    width: 60%;
+  }
+}
+
+/* CSS Setting of NAVBAR*/
+
+.navbar-wrapper {
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #0f357b !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-toggler {
+  background-color: none;
+  color: #fff !important;
+  border: none;
+  margin: auto;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-nav .nav-item:hover a {
+  color: #0f357b !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: bold;
+  text-align: center;
+  font-size: auto;
+  height: auto !important;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+  padding-top: 5px;
+  letter-spacing: 1px;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #fede82;
+}
+
+
+.dropdown-menu {
+  background-color: #fede82;
+  border-radius: 0;
+}
+.dropdown-menu :hover {
+  background-color: #fdd000;
+}
+
+/* CSS Setting of Carousel*/
+
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 70%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-shadow: 2px 2px 2px black;
+}
+
+.carousel-caption h4 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: yellow;
+  line-height: 1.2;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* Responsive */
+@media (max-width: 1500px) {
+  /* CSS Setting of Carousel*/
+  
+  
+    #carouselExampleCaptions .carousel-item img {
+      height: 300px;
+      object-fit: cover; 
+    }
+    .carousel-caption {
+      width: 90%;
+      height: 50%;
+      top: 50%;
+    }
+    .carousel-caption h1 {
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .carousel-caption h4 {
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+  
+  }
+
+/* CSS Setting of Subscrib-are*/
+
+.subscrib-area {
+  background-color:#f39800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.subscrib-area h2 {
+  font-size: 1.5rem;
+  color: #6C3483;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subscrib-area a {
+  background-color: #fff;
+  color: #6C3483;
+  border: 2px solid #6C3483;
+  border-radius: 100px;
+  padding: 8px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.subscrib-area  a:hover {
+  background-color: #6C3483;
+  color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+  .c-center {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .c-right {
+    justify-content: flex-end !important;
+    text-align: right !important;
+  }
+}
+
+.subscrib-area h2 {
+  font-size: 1.8rem;
+  color: #6C3483;;
+  font-weight: 700;
+}
+
+
+/*CSS Setting of About Section */
+.aboutsection {
+  padding: 80px 0;
+}
+
+.about-contants {
+  text-align: left; 
+  max-width: 600px;
+}
+
+
+
+h1,h2,h3,h4,p{
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+}
+.hcolorhtitle2 {
+  color: #a59561;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.hcolor{
+  color: #a59561;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+.highcolorbfont {
+  color: #9b0e79;
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.highcolorbfont2 {
+  color: #9b0e79;
+  font-size: 1.1em;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.bfont {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #5c5031;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.t-justify {
+  text-align: justify;
+}
+
+.blinks {
+  color: #bf7d26;
+  text-decoration: none;
+}
+
+/*CSS Setting of Highlight Section */
+
+.service-img img {
+  max-width: 100%; /* 讓圖片可以自適應父元素的寬度 */
+  height: auto; /* 保持圖片比例不變 */
+  display: block; /* 設定圖片為 block-level 元素，讓上下 margin 可以奏效 */
+  margin: 0 auto; /* 水平置中 */
+}
+.service-contents {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.service-content a {
+  flex-grow: 1;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  display: block;
+  color: #577f38;
+  font-family: Poppins, "Microsoft JhengHei";
+  text-decoration: none;
+}
+.service-content .popinsize2 {
+  font-size: 14px;
+  line-height: 0.7;
+  font-weight: 100;
+}
+
+/*Hover Effect*/
+
+.service-icon {
+  color: #e88600;
+  position: relative;
+  font-size: 30px;
+  padding: 10px;
+
+  margin-bottom: 30px;
+}
+
+.service-icon:hover i {
+  color: white;
+}
+.service-item:hover .service-icon .service-bg {
+  opacity: 1;
+}
+.service-item:hover .service-icon i {
+  color: white;
+}
+.service-item:hover .service-content {
+  color: white;
+}
+
+.service-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  opacity: 0;
+  background-image: url('bg2.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  z-index: -1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/*CSS Setting of Footer*/
+.black-bg {
+  background-color: #a59561;
+  color: #fff;
+  font-family: "Open Sans", "Microsoft JhengHei", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social ul li {
+  margin-right: 20px;
+}
+
+.copyright, .links {
+  font-size: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #f4d442;
+  text-decoration: none;
+}
+
+
