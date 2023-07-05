@@ -7,7 +7,7 @@
     <!--bootstrap css 4.6.2-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!--style CSS-->
-    <link rel="stylesheet" href="field.css">
+    <link rel="stylesheet" href="committeestyle.css">
     <!--bootstrap JS 4.6.2-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -52,7 +52,7 @@
                             <a href="https://hk.ashworthgolf.com/zh-hk" target="_blank"><img src="AW-logo.jpg" alt="ASHWORTH"></a>
                     </div>
                     <div class="login-btn">
-                        <a href="field_eng.html" class="btn btn-button btn-button-2a blue-bg2">ENG</a>
+                        <a href="committee_eng.html" class="btn btn-button btn-button-2a blue-bg2">ENG</a>
                     </div>
                 </div>
             </div>
@@ -102,10 +102,10 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="https://foundation.hkbu.edu.hk/zh/golfday2022" target="_blank">電子通訊</a>
                     <a class="dropdown-item" href="HKBU Golf Day Awardees 2022_chi.pdf" target="_blank">得獎名單</a>
-                    <a class="dropdown-item" href="#"><s>得獎者成績及排名</s></a>
+                    <!--disable<a class="dropdown-item" href="#"><s>得獎者成績及排名</s></a>-->
                     <a class="dropdown-item" href="https://foundation.hkbu.edu.hk/zh/g246" target="_blank">活動相集</a>
                     <a class="dropdown-item" href="HKBU．ASHWORTH Golf Day 2022_HKET.pdf" target="_blank">報章特輯<br>(香港經濟日報)</a>
-                    <a class="dropdown-item" href="HKBU．ASHWORTH Golf Day 2022_Singtao Daily.PDF" target="_blank">報章特輯<br>星島日報</a>
+                    <a class="dropdown-item" href="HKBU．ASHWORTH Golf Day 2022_Singtao Daily.PDF" target="_blank">報章特輯<br>(星島日報)</a>
                   </div>
                 </li>
               </ul>
@@ -119,7 +119,7 @@
   <!--Head Banner-->
   <div class="breadcrumbs"> 
         <div class="containerhead">
-            <h2 class="popin">球場資料</h2>
+            <h2 class="popin">籌備委員會</h2>
           </div>
         
   </div>
@@ -132,34 +132,31 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
-              <div class="purple-type">香港哥爾夫球會粉嶺會所伊甸場</div>
                 <div class="about-contants">
                     <div class="about-content">
-                      <type class="type" id="oc-ty"><a href="https://www.hkgolfclub.org/zh/web/pages/home" target="_blank">香港哥爾夫球會</a>粉嶺會所有三個球場：舊場、新場及伊甸場。每個球場均有十八洞。粉嶺會所設有練習場、球會商店、專業教練及多個康樂設施，如室外游泳池、桌球室及酒吧等。球會商店亦提供球僮、球桿、球車（只供伊甸場使用）及手推車等租借服務。景觀怡人的伊甸場於1970年正式開幕，佔地6,106碼，標準桿數為70，多年來對球手而言甚具挑戰性。
-                      
-                      <br><br><a href="https://hkgolfclub.org/zh/web/pages/eden-course" target="_blank"><button type="button" class="btn btn-default">伊甸場資料</button></a>
-                      <br><br><div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"checked>
-                        <label class="form-check-label" for="flexRadioDefault1"> 
-                         男球員請使用藍色發球台
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                        <label class="form-check-label" for="flexRadioDefault2">
-                          女球員請使用白色發球台/ 年長球員（70歲或以上）（自行選擇）
-                        </label> 
-                        <br><br>
-                        <hr class="hr" />
-                      </type>
-                     
-              <h4>計分卡：</h4>
-              <br>
-              <div class="row">
-                <div class="col-12 col-md-12"><a href="https://hkgolfclub.org/documents/20124/82015/HKGC_Scorecard_EDEN_7020.pdf/6bd9785c-2d4f-6679-6feb-a165710298eb?t=1627906281280 " target="_blank"><img src="Eden-Scorecard-2021.jpg" alt="..." style="width:100%" ></div>
-                
-              </div>
-                      </div>
+
+<table class="table" id="oc-tb">
+<tbody><tr><th colspan="2">聯席主席</th></tr>
+<tr><td>呂元祥博士</td><td>呂元祥建築師事務所主席<br>香港浸會大學基金董事局副主席</td></tr>
+<tr><td>王國強博士工程師，GBS，JP，FHKEng</td><td>金城營造集團主席<br>香港浸會大學基金董事局副主席<br>兼企業家委員會聯席主席</td></tr>
+<tr><th colspan="2">副主席</th></tr>
+<tr><td>林柏如先生</td><td>威勁製衣廠有限公司 Merchandising Director</td></tr>
+<tr><td>劉百成先生</td><td>金鉑士控股有限公司董事總經理<br>香港浸會大學基金校友委員會委員</td></tr>
+<tr><td>梁永祥教授，GBS，JP</td><td>法律援助服務局主席<br>香港浸會大學基金董事局成員</td></tr>
+<tr><td>蘇永乾院士</td><td>澤聯置業有限公司董事長</td></tr>
+<tr><td>孫少文博士，BBS，JP</td><td>SML 集團創辦人<br>香港浸會大學基金董事局成員<br>兼企業家委員會聯席主席</td></tr>
+<tr><th colspan="2">委員</th></tr>
+<tr><td>陳鄭惠蘭女士</td><td>香港浸會大學發展事務處總監<br>香港浸會大學基金秘書長</td></tr>
+<tr><td>李惠儀博士</td><td>香港浸會大學校友事務處總監</td></tr>
+<tr><td>莫振聲先生</td><td>建益國際(香港)有限公司董事</td></tr>
+<tr><td>伍家廉先生</td><td>前香港電台第五台節目總監</td></tr>
+</tbody>
+</table>
+<br>
+<br>
+
+
+
                     </div>
                 </div>
             </div>
@@ -167,10 +164,8 @@
                 <div class="about-img">
 <a href="2023_zh_Sponsorship Form.pdf" target="_blank"><img src="sponsorship-chi.jpeg"請即贊助支持！></a>
                 </div>
-                    <br>
-                  <div class="about-img d-none d-sm-block d-md-block d-lg-block d-xl-block">
-                    <img src="sidebanner_Play-field.png" alt="">
-                                    </div>
+                <div class="about-img d-none d-sm-block d-md-block d-lg-block d-xl-block">
+<img src="sidebanner3.jpeg" alt="">
                 </div>
             </div>
         </div>
@@ -208,6 +203,9 @@
         </div>
     </div>
 </footer>
+
+
+
 
 
 
