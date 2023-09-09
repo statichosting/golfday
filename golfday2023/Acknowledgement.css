@@ -8,6 +8,10 @@
   background-position: center center;
   background-size: cover;
 }
+.table-responsive{  
+  background-position: center center;
+  background-size: cover;
+}
 
 .containerhead{
   height: 250px;
@@ -57,11 +61,38 @@
   border-collapse: collapse;
   text-indent: initial;
   border-spacing: 2px;
-  font-family: 'Open Sans', 'Microsoft JhengHei', sans-serif;
+  font-family:Roboto;
   font-size: 14px;
   line-height: 24px;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
 }
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  max-width: 100%;
+  height: auto;
 
+}
+.row{
+  text-align: center;
+  font-size: 11pt;
+  padding: 10px 0;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #993300;
+  vertical-align: middle;
+  
+}
+.row2{
+  text-align: center;
+  font-size: 11pt;
+  padding: 0px 0;
+  font-weight: bold;
+  color: #ffffff;
+  vertical-align: middle;
+}
 .main-section p {
   color: #6b551e;
   font-size: 14px;
@@ -71,7 +102,10 @@
 .about-img {
   text-align: center; 
 }
-
+.black-bg {
+  background-color: #a59561;
+  color: #fff;
+}
 .about-img img {
   max-width: 100%;
   height: auto;
@@ -155,7 +189,7 @@ h6 {
 }
 
 .navbar {
-  background-color:  #0f357b !important;
+  background-color:  #f39800 !important;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -179,7 +213,7 @@ h6 {
 }
 
 .navbar .navbar-nav .nav-link {
-  color: #ffffff !important;
+  color: #531e68 !important;
   font-weight: bold;
   text-align: center;
   font-size: auto;
@@ -214,8 +248,19 @@ h6 {
 
 
 /* CSS Setting of Carousel*/
-
-
+table {
+  border-collapse: collapse;
+}
+.table tr, .table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
 .carousel-caption {
   position: absolute;
   left: 50%;
@@ -555,7 +600,12 @@ td {
   color: #9b7b29;
   font-weight: bold;
 }
-
+.tf {
+  display: table-cell;
+  text-align: center;
+  color: #9b7b29;
+  font-weight: bold;
+}
 td.sc-head-b {
   color: #bb00bb;
   text-align: center;
