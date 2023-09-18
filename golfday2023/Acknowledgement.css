@@ -8,7 +8,9 @@
   background-position: center center;
   background-size: cover;
 }
-
+img{
+	max-width:100%;
+}
 .containerhead{
   height: 250px;
 }
@@ -369,7 +371,7 @@ input[name="flexRadioDefault"] {
 
 .about-contants {
   text-align: left; 
-  max-width: 600px;
+  max-width: 100%;
 }
 
 
